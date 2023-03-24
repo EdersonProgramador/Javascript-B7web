@@ -1,4 +1,4 @@
-// Valor que armazena informações
+// ^ Valor que armazena informações
 
 x = 10;
 
