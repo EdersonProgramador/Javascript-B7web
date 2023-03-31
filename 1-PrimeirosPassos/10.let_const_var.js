@@ -3,7 +3,7 @@ console.log(nome)
 nome = "João"
 console.log(nome)
 
-// ^ Qual eu crio uma variável com valor let é possível alterar o valor ^
+// ^ Quando eu crio uma variável com valor let é possível alterar o valor ^
 
 var nome2 = "Ederson Programador"
 console.log(nome2)
