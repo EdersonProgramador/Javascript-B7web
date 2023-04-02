@@ -1,5 +1,5 @@
-### 1 - Primeiros Passos
+# 1 - Primeiros Passos
 
-# 1. Introdução ao Javacript
+## 1. Introdução ao Javacript
 
-# 2. Como Programar em Javacript ?
+### 2. Como Programar em Javacript ?
