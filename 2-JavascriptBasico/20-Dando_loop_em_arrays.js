@@ -14,6 +14,12 @@ let cores = [
 //     console.log(cores[i])
 // }
 
-for (let cor of cores) {
-    console.log(`Nome: ${cor.nome} - ${cor.qt}`);
+for (let i in cores) {
+    cores[i].nome = cores[i].nome.toUpperCase();
 }
+
+// for (let cor of cores) {
+//     console.log(`Nome: ${cor.nome} - ${cor.qt}`);
+// }
+
+console.log(cores)
