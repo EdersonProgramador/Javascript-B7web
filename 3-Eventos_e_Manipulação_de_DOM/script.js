@@ -1,6 +1,12 @@
 function clicou() {
-    const teste = document.querySelector('#teste')
-    const ul = teste.querySelector('ul')
+    const input = document.querySelector('input');
+    const botao = document.querySelector('.botao')
 
-    ul.children[0].append("(alterado)")
+    if (input.getAttribute('type') === 'text') {
+        input.setAttribute('type', 'password')
+        botao.innerText = "Mostrar Senha";
+    } else {
+        input.setAttribute('type', 'text')
+        botao.innerText = "Ocultar Senha";
+    }
 }
