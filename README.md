@@ -11,3 +11,6 @@
     document.getElementsByClassName("")
     document.querySelector("")
     document.querySelectorAll("")
+    children
+    innerHTML
+    outerHTML
